@@ -54,7 +54,7 @@ end
 return {
   description = "Gets information about a location, maplink and overview", 
   usage = "/location (location): Gets information about a location, maplink and overview",
-  patterns = {"^/location (.*)$"}, 
+  patterns = {"^[!#/]location (.*)$"}, 
   run = run 
 }
 
