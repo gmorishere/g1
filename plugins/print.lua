@@ -23,7 +23,7 @@ return {
     "/print [equation]: Convert LaTeX equation to image"
   },
   patterns = {
-    "^/print (.+)$"
+    "^[!#/]print (.+)$"
   },
   run = run
 }
