@@ -7,13 +7,12 @@ local info = '#Name : '..msg.from.first_name..'\n\n'
 ..'#Group Id : '..msg.to.id..'\n'
 ..'#Group name : '..msg.to.title
 
-reply_msg(reply_id, info, ok_cb, false)
 end
 
 return {
 patterns = {
 "^/info"
---create by RoyalTeam ID CHANNEL : @RoyalTeamCh
+
 },
 run = run
 }
