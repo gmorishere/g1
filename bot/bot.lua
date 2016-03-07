@@ -213,9 +213,9 @@ function create_config( )
     enabled_plugins = {
       "help",
       "id",
-      "membercontrol"
-      "moderation"
-      "groupcontrol"
+      "membercontrol",
+      "moderation",
+      "groupcontrol",
       "plugins"
       },
     sudo_users = {119989724},
