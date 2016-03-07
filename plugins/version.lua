@@ -11,9 +11,9 @@ end
 
 return {
   description = "Shows bot version", 
-  usage = "/tfb: Shows bot version",
+  usage = "/version: Shows bot version",
   patterns = {
-    "^/tfb$"
+    "^/version$"
   }, 
   run = run 
 }
