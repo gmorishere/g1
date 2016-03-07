@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return 'Telegram Bot '.. VERSION .. [[ 
+  return 'Telegram TFB Bot '.. VERSION .. [[ 
   Developer : @Shahabambesik
   Manager : @Amirsasan1998
   Chek Out Our Channel :
@@ -11,9 +11,9 @@ end
 
 return {
   description = "Shows bot version", 
-  usage = "/version: Shows bot version",
+  usage = "/tfb: Shows bot version",
   patterns = {
-    "^/version$"
+    "^/tfb$"
   }, 
   run = run 
 }
