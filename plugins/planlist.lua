@@ -9,12 +9,11 @@ return’Planlist:’.. planlist ..[[
 1⃣ماه ۳ تومان
 2⃣ماه ۵ تومان
 3⃣ ماه ۸ تومان
-Ask @yadegari_bemoone_behtare for groups
-.]]برای سفارش گروه به @yadegari_bemoone_behtare مراجعه کنید. 
+Ask @yadegari_bemoone_behtare for groups]]
 end 
 return {
-description=“shows planlist”,
-usages=“ shows planlist”,
+description= "shows planlist",
+usages= "shows planlist",
 patterns= {
 “^[/!@#$%&*]([Nn]erkh)$”,
 “^[/!@#$%&*]([Pp]lan)$”,
