@@ -26,6 +26,7 @@ local function run(msg, matches)
 💭/setphoto : then send photo
 💭/setname <write name>
 💭/id
+💭/info (reply): user name and id
 💭/id chat
 💭/group settings 
 💭/getlink : send link in your pv
@@ -71,6 +72,7 @@ local function run(msg, matches)
 💭/setphoto : then send photo
 💭/setname <write name>
 💭/id
+💭/info (reply): user name and id
 💭/id chat
 💭/group settings 
 💭/getlink : send link in your pv
@@ -84,6 +86,8 @@ local function run(msg, matches)
 💭/sdemote : in promote by <reply|id|username>
 💭/promote : by <reply|id|username> 
 💭/demote : by <reply|id|username> 
+💭/upmanager: by <reply> add admin
+💭/inmanager: by <reply> dem admin
 
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
