@@ -89,6 +89,18 @@ local function run(msg, matches)
 💭/upmanager: by <reply> addadmin
 💭/inmanager: by <reply> demadmin
 
+➕
+✅ other commands
+
+💭/boobs : boobs picture
+💭/butts : butts picture
+💭/calc (math) : math your text
+💭/google [text] : search in google
+💭/location [place] : located on map
+💭/print [text] : text in photo
+💭/time [city] : time of city
+💭/version : planlist and bot version
+
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
   else
