@@ -5,7 +5,7 @@ local function run(msg, matches)
 💭/close|open member
 💭/close|open name
 💭/close|open bot
-💭/close|open photo
+💭/close|open image
 💭/close|open sticker
 💭/close|open file 
 💭/close|open audio
@@ -50,7 +50,7 @@ local function run(msg, matches)
 💭/close|open member
 💭/close|open name
 💭/close|open bot
-💭/close|open photo
+💭/close|open image
 💭/close|open sticker
 💭/close|open file 
 💭/close|open audio
