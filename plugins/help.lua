@@ -101,6 +101,12 @@ local function run(msg, matches)
 💭/time [city] : time of city
 💭/version : planlist and bot version
 
+➕
+✅ contact to admins 
+
+💭/feedback : send 🅿️Ⓜ in admin group
+
+#Developer :  @Ww_Shahabsaf_wW
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
   else
