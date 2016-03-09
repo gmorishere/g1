@@ -50,7 +50,7 @@ local function run(msg, matches)
   -- Id of the user and info about group / channel
   if matches[1] == "/id" then
     if msg.to.type == 'channel' then
-      return ('Chat ID: %s\nUser ID: %s'):format(msg.to.id, msg.from.id)
+      return ('Super Group ID: %s\nUser ID: %s'):format(msg.to.id, msg.from.id)
     end
     if msg.to.type == 'chat' then
       return ('Chat ID: %s\nUser ID: %s'):format(msg.to.id, msg.from.id)
@@ -168,7 +168,7 @@ return {
     "/id members name <text>: Search for users with <text> on first_name, print_name or username on current chat"
   },
   patterns = {
-    --"^/id$",
+    "^/id$",
     "^/ids? (chat) (%d+)$",
     "^/ids? (chat)$",
     "^/ids (channel)$",
