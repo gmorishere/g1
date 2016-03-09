@@ -7,7 +7,7 @@ do
 
 
    local text = matches[1]
-   local chat = "chat#id"..1039005352 
+   local chat = "channel#id"..1039005352 
 
   local sends = send_msg(chat, fuse, ok_cb, false)
   return 'Sent!'
