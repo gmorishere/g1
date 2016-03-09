@@ -2,7 +2,7 @@ do
 
  function run(msg, matches)
  local ch = 'chat#id'..msg.to.id
- local fuse = 'New msg\n\n🆔 : ' .. msg.from.id .. '\n\nName: ' .. msg.from.print_name ..'\n\nUsername: @' .. msg.from.username ..'\n\nMessage From Super Group ID: '..msg.to.id.. '\n\n🅿️Ⓜ:\n' .. matches[1]
+ local fuse = 'New msg\n\n🆔 : ' .. msg.from.id .. '\n\nName: ' .. msg.from.print_name ..'\n\nUsername: @' .. msg.from.username ..'\n\n Super Group ID: '..msg.to.id.. '\n\n🅿️Ⓜ:\n' .. matches[1]
  local fuses = '!printf user#id' .. msg.from.id
 
 
