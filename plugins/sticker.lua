@@ -15,7 +15,7 @@ end
 local function run(msg, matches)
 local file = 'sticker/sticker.webp'
 
-if msg.to.type == 'chat' then
+if msg.to.type == 'channel' then
 
 if matches[1]== "- stick" then
     if is_sudo(msg) then
@@ -88,7 +88,7 @@ end
 	 
 end
 else
-return 'Sticker Make Only Work In My Groups !'..text
+return 'Sticker Make Only Work In My SuperGroups !'..text
 end
 
    end
