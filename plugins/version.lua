@@ -2,16 +2,16 @@ do
 
 function run(msg, matches)
   return 'Telegram TFB Bot '.. VERSION .. [[ 
-  Developer : @Shahabambesik
-  Manager : @Amirsasan1998
-  Chek Out Our Channel :
-  Telegram.me/Tfbkingdom
+ Developer : @Ww_Shahabsaf_wW
+ Manager : @Amirsasan1998
+ Chek Out Our Channel :
+ Telegram.me/Tfbkingdom
   
-  Planlist :
+Planlist :
 
- 1⃣ Month 2$ 🤑
- 2⃣ Months 3$🤑
- 3⃣ Months 5$🤑
+1⃣ Month 2$ 🤑
+2⃣ Months 3$🤑
+3⃣ Months 5$🤑
  =========================
  لیست پلن ها :
 
@@ -19,8 +19,8 @@ function run(msg, matches)
  2⃣ ماه 5 تومان🤑
  3⃣ ماه 8 تومان 🤑
 
- Ask @Yadegari_bemoone_behtare for Groups
-  GNU GPL v2 license.]]
+ Ask @Ww_Shahabsaf_wW for Groups
+ GNU GPL v2 license.]]
 end
 
 return {
