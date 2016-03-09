@@ -109,7 +109,8 @@ local function run(msg, matches)
 ➖🔸➖🔹➖🔸➖🔹➖
 
 #Developer :  @Ww_Shahabsaf_wW
-#Manager :  @AmirSasan1998
+#Manager :  
+@AmirSasan1998
 ]]
     return text
   else
