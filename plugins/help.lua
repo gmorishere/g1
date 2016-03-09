@@ -106,8 +106,11 @@ local function run(msg, matches)
 
 💭/feedback : send 🅿️Ⓜ in admin group
 
+➖🔸➖🔹➖🔸➖🔹➖
+
 #Developer :  @Ww_Shahabsaf_wW
-➖🔸➖🔹➖🔸➖🔹➖]]
+#Manager :  @AmirSasan1998
+]]
     return text
   else
     local text = [[aaa]]
