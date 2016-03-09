@@ -1,7 +1,7 @@
 --Tag ppl with username and a msg after it
 local function tagall(cb_extra, success, result)
     local receiver = cb_extra.receiver
-    local chat_id = "channel#id"..result.id
+    local channel_id = "channel#id"..result.id
     local text = ''
     local i = 0 + 1
     for k,v in pairs(result.members) do
