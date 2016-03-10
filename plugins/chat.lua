@@ -26,11 +26,11 @@ end
 if msg.text == "شهاب" then
 	return "با باباییم چیکار داری"
 end
-if msg.text == "tfbbot" then
-	return "Yes?"
+if msg.text == "Idk" then
+	return "gaeedish dare mige i don't know"
 end
-if msg.text == "Tfbbot" then
-	return "What?"
+if msg.text == "idk" then
+	return "gaeedish dare mige i don't know"
 end
 if msg.text == "bot" then
 	return "hum?"
@@ -58,7 +58,7 @@ return {
 		"^[Ss]hahab$",
 		"^شهاب$",
 		"^[Bb]ot$",
-		"^[Tt]fbbot$",
+		"^[Ii]dk$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
