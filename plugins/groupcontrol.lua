@@ -666,9 +666,9 @@ local function pre_process(msg)
                 if group_member_lock == 'yes' and msg.from.id ~= 0 and not is_momod(msg) then
                     channel_kick_user(receiver, user_id, ok_cb, true)
                 end
-                if action == 'chat_add_user' and msg.action.user.flags == 1 then -- Need fix
+                if action == 'chat_add_user' and msg.action.user.flags == 1 then
                 	if settings.lock_bot == 'yes' and not is_momod(msg) then
-                	    --channel_kick_user(receiver, user_id, ok_cb, true)
+                	    channel_kick_user(receiver, user_id, ok_cb, true)
                 	end
                 end
             end
@@ -810,9 +810,9 @@ function run(msg, matches)
                 if matches[2] == 'photo' then
                     return lock_group_photo(msg, data)
                 end
-                --if matches[2] == 'bot' then
-                --	return lock_group_bot(msg, data)
-                --end
+                if matches[2] == 'bot' then
+                	return lock_group_bot(msg, data)
+                end
                 if matches[2] == 'link' then
                 	return lock_group_link(msg, data)
                 end
@@ -845,9 +845,9 @@ function run(msg, matches)
                 if matches[2] == 'photo' then
                     return unlock_group_photo(msg, data)
                 end
-                --if matches[2] == 'bot' then
-                --	return unlock_group_bot(msg, data)
-                --end
+                if matches[2] == 'bot' then
+                	return unlock_group_bot(msg, data)
+                end
                 if matches[2] == 'link' then
                 	return unlock_group_link(msg, data)
                 end
@@ -971,12 +971,12 @@ function run(msg, matches)
                 if matches[2] == 'chat' then
                 	return lock_group_talk(msg, data)
                 end
-                --if matches[2] == 'all' then
-                --	return lock_group_all(msg, data)
-                --end
+                if matches[2] == 'all' then
+                	return lock_group_all(msg, data)
+                end
             end
             if matches[1] == 'open' then --group unlock *
-                --[[if matches[2] == 'name' then
+               [[if matches[2] == 'name' then
                     return unlock_group_name(msg, data)
                 end
                 if matches[2] == 'member' then
@@ -1006,14 +1006,14 @@ function run(msg, matches)
                 if matches[2] == 'chat' then
                     return unlock_group_talk(msg, data)
                 end
-                --if matches[2] == 'all' then
-                --	return unlock_group_all(msg, data)
-                --end
+                if matches[2] == 'all' then
+                	return unlock_group_all(msg, data)
+                end
             end
             if matches[1] == 'group' and matches[2] == 'settings' then
                 return show_group_settings(msg, data)
             end
-            --[[if matches[1] == 'setname' and is_momod(msg) then
+            [[if matches[1] == 'setname' and is_momod(msg) then
                 local new_name = string.gsub(matches[2], '_', ' ')
                 data[tostring(msg.to.id)]['settings']['set_name'] = new_name
                 save_data(_config.moderation.data, data) 
