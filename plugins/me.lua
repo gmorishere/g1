@@ -28,10 +28,10 @@ if not is_momod(msg)then
 return "you are member"
 end
 if msg.text == "joon" then
-        return "kir"
+        return"kir"
 end
 if msg.text == "kooni" then
-        return "siktir"
+        return"siktir"
 end
 end
 end
