@@ -13,19 +13,19 @@ if msg.text == ":D" then
 end
 if msg.text == 'me' then 
 if is_sudo(msg)then
-return "baba shahab"
+return "baba shahab😘❤️"
 end
 if msg.text == 'me' then 
 if is_admin(msg)then
-return "baba sasan :-*"
+return "baba sasan 😍😍😍😘😘😘😘"
 end
 if msg.text == 'me' then 
 if is_momod(msg)then
-return "you are moderator"
+return "modire gp hasti pas bayad be shahabo sasan bedi"
 end
 if msg.text == 'me' then 
 if not is_momod(msg)then
-return "you are member"
+return "to chos member khodami =)"
 end
 if msg.text == "joon" then
         return"kir"
