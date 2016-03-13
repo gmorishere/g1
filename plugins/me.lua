@@ -13,11 +13,11 @@ if msg.text == ":D" then
 end
 if msg.text == 'me' then 
 if is_sudo(msg)then
-return "you are sudo"
+return "baba shahab"
 end
 if msg.text == 'me' then 
 if is_admin(msg)then
-return "you are admin"
+return "baba sasan :-*"
 end
 if msg.text == 'me' then 
 if is_momod(msg)then
