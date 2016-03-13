@@ -316,7 +316,7 @@ return {
     "!group settings : Show group settings"
     },
   patterns = {
-    "^/(creategroup) (.*)$",
+    "^[!/](creategroup) (.*)$",
     "^!!tgservice (.+)$",
   }, 
   run = run,
