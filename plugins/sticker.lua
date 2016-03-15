@@ -15,9 +15,9 @@ end
 local function run(msg, matches)
 local file = 'sticker/sticker.webp'
 
-msg.to.type = 'chat' then
+if msg.to.type == 'chat' then
 
-if matches[1]== "/close stick" then
+if matches[1]== "❌ stick" then
     if is_sudo(msg) then
 lock = 1
 return "Sticker Maker Locked ! \nNow Only [Sudo,Admin,Owner]'s can Be Use it"
@@ -26,7 +26,7 @@ return "Only For Sudo !"
 end
 end
 
-if matches[1]== "/open stick" then
+if matches[1]== "✔ stick" then
     if is_sudo(msg) then
 lock = 0
 return "Sticker Maker Unlocked ! \nNow All Members can Be Use it"
@@ -50,7 +50,7 @@ else
     end
 end
 end
-if matches[1] == "/sticker" then
+if matches[1] == "Sticker" then
     if lock == 0 then
     send_document(get_receiver(msg), "./"..file, ok_cb, false)
     return 'Please Wait '..txt
@@ -65,7 +65,7 @@ else
 end
 end
 
-if matches[1] == "/show sticker" or matches[1] == "Show sticker" then
+if matches[1] == "show sticker" or matches[1] == "Show sticker" then
 if lock == 1 then
     return 'Sticker Maker : Lock'
 else
@@ -95,10 +95,10 @@ end
 
 return {
   patterns = {
-  "^/sticker$",
-  "^/show sticker$",
-  "^/close stick$",
-  "^/open stick$",
+  "^[Ss]ticker$",
+  "^[Ss]how sticker$",
+  "^❌ stick$",
+  "^✔ stick$",
   '%[(photo)%]'
   },
   run = run
