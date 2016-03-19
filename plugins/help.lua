@@ -100,6 +100,7 @@ local function run(msg, matches)
 💭/print [text] : text in photo
 💭/time [city] : time of city
 💭/version : planlist and bot version
+💭/voice [text] : text to voice 
 
 ➕
 ✅ contact to admins 
